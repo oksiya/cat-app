@@ -1,0 +1,25 @@
+body{
+    background-color: #57A773;
+}
+
+.cat {
+    background-color: #9BD1E5;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 1em;
+    border: solid black;
+    flex: 1;
+}
+
+
+
+@media(min-width: 960px){
+    .cats {
+        display: flex;
+    }
+}
+
+fieldset{
+    margin: 1em;
+    border: 0;
+}
